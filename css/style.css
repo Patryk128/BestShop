@@ -104,20 +104,83 @@
     align-items: center;
     padding-top: 20px;
 }
-/* .hero-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 .hero-buttons {
     text-align: center;
+    padding-top: 60px;
+    
 }
 .hero-button{
-    width: 225px;
-    height: 65px;
-    text-decoration: none;
-    border-radius: 40px;
-    box-shadow: 5px 10px 14px #07ACE629;
-    color: #fff;
+    height: 67px;
+    width: 440px;
     background-color: var(--color-primary);
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--font-1);
+}
+
+.stats {
+    margin-top: 100px;
+}
+.stats-title {
+    font-family: var(--font-2);
+    font-size: 36px;
+    text-wrap: nowrap;
+    padding-top: 100px;
+    text-align: center;
+}
+.stats-element {
+    max-width: 770px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.circle {
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    position: relative;
+}
+.person{
+    position: absolute;
+    z-index: 2;
+    translate: 60%;
+}
+.eye{
+    position: absolute;
+    z-index: 2;
+    translate: 40% 30%;
+}
+.catalog {
+    position: absolute;
+    z-index: 2;
+    translate: 60%;
+}
+.entries-circle {
+    background-color: var(--color-redish)
+}
+.viev-circle {
+    background-color: var(--color-primary);
+}
+.post-circle {
+    background-color: var(--color-green);
+}
+.stat-number {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: var(--font-2);
+    letter-spacing: 6px;
+    color: #000;
+}
+.stat-text {
+    font-size: 17px;
+    font-family: var(--font-2);
+    color: var(--color-grey);
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-wrap: wrap;
 }
