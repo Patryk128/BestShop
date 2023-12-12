@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --color-primary: #08A6E4;
+    --color-primary-shadow:rgba(7, 172, 230, .16);
+    --color-redish:#FB3B64; 
+    --color-green: #55DFB4;
+    --color-grey: #A5A5A5;
+    --color-light-grey: #F7F7F7;
+    --font-1: 'Open Sans', sans-serif;
+    --font-2: 'Raleway', sans-serif;
+}
+/* body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+} */
+.container {
+    max-width: 1352px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    flex-shrink: 0;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    padding: 20px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo {
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 3px;
+    display: flex;
+    font-family: var(--font-1);
+    flex-direction: row;
+    align-items: center;
+    gap: 95px;
+}
+.menu-list a {
+    color: var(--color-grey);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    border-bottom: solid transparent;
+}
+.menu-list a:hover {
+    color: #000;
+    border-color: var(--color-primary);
+}
+.hero {
+    position: relative;
+    isolation: isolate;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .container {
+}
+.hero img {
+    height: auto;
+    width: 100%;
+}
+.hero-title {
+    height: 100%;   
+    font-family: var(--font-2);
+    font-size: 49px;
+    padding-top: 200px;
+    text-align: center;
+}
+.hero-text {
+    font-size: 16px;
+    font-family: var(--font-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+/* .hero-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.hero-buttons {
+    text-align: center;
+}
+.hero-button{
+    width: 225px;
+    height: 65px;
+    text-decoration: none;
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px #07ACE629;
+    color: #fff;
+    background-color: var(--color-primary);
+}
