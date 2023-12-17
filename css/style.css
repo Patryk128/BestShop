@@ -433,24 +433,28 @@
 }
  
 .pricing__container {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 113px;
 }
 .price-inside {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     width: 372px;
     height: 461px;
     border-radius: 18px;
     border: 1px solid black;
-}
+} 
 
 .box-title {
     font-size: 20px;
     color: #13253B;
     font-family: var(--font-2);
     font-weight: bold;
-    margin-top: 34px;
 }
 .item-price {
     font-size: 46px;
@@ -463,14 +467,17 @@
     align-items: center;  
     text-align: center;
     flex-direction: column;
+    margin-top: 34px;
+    margin-bottom: 60px;
+
 }
 .box-price {
     padding-top: 34px;
+    position: relative;
 }
 
 .box-items {
     list-style: none;
-    padding-top: 69px;
     color: blue;
     flex-direction: column;
 }
@@ -513,6 +520,7 @@
 }
 .price-inside-basic .item-price {
     color: var(--color-redish);
+    margin-bottom: 27px;
 }
 
 .price-inside-proffesional {
@@ -525,7 +533,9 @@
 .price-inside-proffesional .item-price {
     color: var(--color-primary);
 }
-
+.price-inside-proffesional .box-item {
+    margin-bottom: 25px;
+}
 
 .price-inside-premium {
     border-color: var(--color-green);
@@ -534,4 +544,29 @@
 
 .price-inside-premium .item-price {
     color: var(--color-green);
+}
+.price-button {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: var(--font-1);
+    font-weight: bold;
+    position: relative;
+    bottom: -15px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px 65px;
+    border-radius: 23px;
+    border: none;
+}
+
+.price-inside-basic .price-button {
+    background-color: var(--color-redish);
+}
+.price-inside-proffesional .price-button {
+    background-color: var(--color-primary)
+}
+.price-inside-premium .price-button {
+    background-color: var(--color-green)
 }
