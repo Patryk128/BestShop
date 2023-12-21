@@ -570,3 +570,191 @@
 .price-inside-premium .price-button {
     background-color: var(--color-green)
 }
+
+.contact {
+    padding-top: 173px;
+    max-width: 896px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.contact-container {
+    
+}
+.contact-left, .contact-right{
+    width: 50%;    
+}
+.contact-left {}
+.contact-left-title{
+    font-size: 49px;
+    font-family: var(--font-2);
+    color: #000;
+}
+.contact-left-text{
+    font-size: 16px;
+    font-family: var(--font-1);
+    color: #000;
+    margin-top: 22px;
+}
+.contact-left-contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--color-grey);
+    padding-top: 42px;
+    font-size: 16px;
+    font-family: var(--font-1);
+    font-weight: 500;
+    text-decoration: none;
+}
+.contact-left-email{
+
+}
+.contact-left-email::before{
+    content: "";
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    display: inline-block;
+    background-image: url(/assets/Mail\ Icon.svg);
+    vertical-align: middle;
+}
+
+.contact-left-phone{
+    
+}
+.contact-left-phone::before{
+    content: "";
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    background-image: url(/assets/Phone\ Icon.svg);
+    vertical-align: middle;
+}
+
+.contact-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.form {
+    display: flex;
+  flex-direction: column;
+}
+
+.form-column{
+    display: flex;
+    flex-direction: column;
+}
+.form-column:nth-child(1){
+    padding-bottom: 42px;
+}
+.form-column:nth-child(2){
+}
+.form-label{
+    font-size: 11px;
+    letter-spacing: 3.28px;
+    color: var(--color-primary);
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.form-control{
+    padding-top: 30px;
+    border: none;
+    border-bottom: 1px solid var(--color-grey);
+}
+
+.form-check-input{
+    flex-shrink: 0;
+    appearance: none;
+    cursor: pointer;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--color-grey);
+    border-radius: 4px;
+}
+.form-check-input:checked{
+    flex-shrink: 0;
+    appearance: none;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--color-grey);
+    border-radius: 4px;
+    background-image: url(/assets/Checkmark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+.form-check {
+    display: flex;
+    gap: 10px;
+}
+.form-row{
+    margin-top: 30px;
+}
+.form-check-label{
+}
+.contact-right-text {
+    font-size: 12px;   
+    margin: 0 10px; 
+    color: var(--color-grey);
+    font-family: var(--font-1);
+    line-height: 17px;
+}
+.contact-button {
+    padding: 20px 97px;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+.form-btn{
+    text-decoration: none;
+    font-size: 11px;
+    font-family: var(--font-1);
+    font-weight: bold;
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 97px;
+    border-radius: 35px;
+    border: none;
+}
+
+.footer{
+    padding: 20px 0;
+    box-shadow: 0px -5px 40px rgba(0, 0, 0, 0.16);
+}
+.footer-container{
+    width: 1352px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-logo{
+    font-size: 26px;
+    color: var(--color-primary);
+}
+.footer-text{
+    font-size: 11px;
+    color: var(--color-grey);
+    margin-top: 6px;
+   
+}
+.footers-socials:first-of-type{
+
+}
+.footer-twitter{
+
+}
