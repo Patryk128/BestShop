@@ -58,7 +58,7 @@ body {
   display: flex;
 }
 
-.nav-element {
+.header-nav-element {
   cursor: pointer;
   padding: 0 30px;
 }
