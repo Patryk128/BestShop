@@ -59,7 +59,7 @@
 51C:\Users\Patryk\bestshop\node_modules\picomatch\lib133751258004489205 1
 48C:\Users\Patryk\bestshop\mailtoinfo@bestshop.xyz133751231673507520 0
 80C:\Users\Patryk\bestshop\node_modules\caniuse-lite\data\features\console-time.js133751258025720239 0
-37C:\Users\Patryk\bestshop\node_modules133751259180129712 1
+37C:\Users\Patryk\bestshop\node_modules133751265940308723 1
 54C:\Users\Patryk\bestshop\node_modules\@parcel\core\src133751258324518181 1
 97C:\Users\Patryk\bestshop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser133751258301460794 1
 54C:\Users\Patryk\bestshop\node_modules\domutils\LICENSE133751258019776452 0
@@ -67,7 +67,7 @@
 54C:\Users\Patryk\bestshop\node_modules\lmdb\src\txn.cpp133751258023008588 0
 92C:\Users\Patryk\bestshop\node_modules\csso\node_modules\css-tree\cjs\syntax\function\var.cjs133751258292383611 0
 85C:\Users\Patryk\bestshop\node_modules\@parcel\transformer-image\lib\validateConfig.js133751258059148833 0
-42C:\Users\Patryk\bestshop\package-lock.json133751259180672017 0
+42C:\Users\Patryk\bestshop\package-lock.json133751265940943902 0
 58C:\Users\Patryk\bestshop\node_modules\type-fest\index.d.ts133751258004649202 0
 83C:\Users\Patryk\bestshop\node_modules\@swc\helpers\esm\_class_private_method_get.js133751258027787070 0
 75C:\Users\Patryk\bestshop\node_modules\@lmdb\lmdb-win32-x64\node.abi115.node133751258276755312 0
@@ -84,7 +84,7 @@
 85C:\Users\Patryk\bestshop\node_modules\caniuse-lite\data\features\css-rebeccapurple.js133751258026484322 0
 60C:\Users\Patryk\bestshop\node_modules\immutable\package.json133751258016842768 0
 87C:\Users\Patryk\bestshop\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile133751258015429525 0
-37C:\Users\Patryk\bestshop\package.json133751231673527525 0
+37C:\Users\Patryk\bestshop\package.json133751265940338721 0
 63C:\Users\Patryk\bestshop\node_modules\semver\functions\minor.js133751258014411483 0
 91C:\Users\Patryk\bestshop\node_modules\@parcel\optimizer-svgo\node_modules\csso\dist\csso.js133751258290856377 0
 60C:\Users\Patryk\bestshop\node_modules\domelementtype\LICENSE133751258019827294 0
@@ -146,11 +146,11 @@
 67C:\Users\Patryk\bestshop\node_modules\cosmiconfig\dist\types.js.map133751258023382920 0
 76C:\Users\Patryk\bestshop\node_modules\@parcel\packager-js\src\.eslintrc.json133751258146655326 0
 88C:\Users\Patryk\bestshop\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\COPYRIGHT133751258015358709 0
-45C:\Users\Patryk\bestshop\node_modules\@parcel133751259180140124 1
+45C:\Users\Patryk\bestshop\node_modules\@parcel133751265940308723 1
 60C:\Users\Patryk\bestshop\node_modules\lmdb\dependencies\lmdb133751258015347939 1
 91C:\Users\Patryk\bestshop\node_modules\css-select\node_modules\dom-serializer\lib\index.d.ts133751258288369940 0
 70C:\Users\Patryk\bestshop\node_modules\css-what\lib\commonjs\types.d.ts133751258023058571 0
-43C:\Users\Patryk\bestshop\node_modules\@lmdb133751259180140124 1
+43C:\Users\Patryk\bestshop\node_modules\@lmdb133751265940308723 1
 107C:\Users\Patryk\bestshop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\index.js133751258294368983 0
 58C:\Users\Patryk\bestshop\node_modules\msgpackr-extract\bin133751258014060087 1
 57C:\Users\Patryk\bestshop\node_modules\stable\package.json133751258010236773 0
@@ -197,7 +197,7 @@
 71C:\Users\Patryk\bestshop\node_modules\css-tree\cjs\convertor\create.cjs133751258021608561 0
 61C:\Users\Patryk\bestshop\node_modules\semver\functions\inc.js133751258014329494 0
 74C:\Users\Patryk\bestshop\node_modules\css-tree\cjs\syntax\node\Comment.cjs133751258021588564 0
-55C:\Users\Patryk\bestshop\node_modules\@msgpackr-extract133751259180140124 1
+55C:\Users\Patryk\bestshop\node_modules\@msgpackr-extract133751265940308723 1
 77C:\Users\Patryk\bestshop\node_modules\@parcel\transformer-babel\lib\babel7.js133751258064201771 0
 44C:\Users\Patryk\bestshop\node_modules\@lezer133751258000928848 1
 69C:\Users\Patryk\bestshop\node_modules\@swc\helpers\_\_sliced_to_array133751258029199922 1
@@ -271,7 +271,7 @@
 52C:\Users\Patryk\bestshop\scss\elements\_pricing.scss133751231673567559 0
 91C:\Users\Patryk\bestshop\node_modules\csso\node_modules\css-tree\cjs\syntax\scope\index.cjs133751258289226598 0
 42C:\Users\Patryk\bestshop\node_modules\.bin133751258857094233 1
-56C:\Users\Patryk\bestshop\node_modules\.package-lock.json133751259181000253 0
+56C:\Users\Patryk\bestshop\node_modules\.package-lock.json133751265941277014 0
 123C:\Users\Patryk\bestshop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\subselects.js133751258300714772 0
 61C:\Users\Patryk\bestshop\node_modules\posthtml-parser\license133751258009760517 0
 102C:\Users\Patryk\bestshop\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\properties.json133751258299965241 0
@@ -298,7 +298,7 @@
 65C:\Users\Patryk\bestshop\node_modules\immutable\dist\immutable.js133751258016822767 0
 51C:\Users\Patryk\bestshop\node_modules\color-convert133751258004459210 1
 99C:\Users\Patryk\bestshop\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc133751258281106751 0
-42C:\Users\Patryk\bestshop\node_modules\@swc133751259180140124 1
+42C:\Users\Patryk\bestshop\node_modules\@swc133751265940308723 1
 83C:\Users\Patryk\bestshop\node_modules\csso\node_modules\css-tree\lib\lexer\trace.js133751258301806057 0
 96C:\Users\Patryk\bestshop\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\intro.doc133751258023048571 0
 82C:\Users\Patryk\bestshop\node_modules\caniuse-lite\data\features\css3-boxsizing.js133751258026737548 0
