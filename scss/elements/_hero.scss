@@ -3,69 +3,68 @@
 @import "../elements/mixins";
 
 .hero {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
-    @include laptop {
-        overflow: hidden;
-    }
+  @include laptop {
+    overflow: hidden;
+  }
 }
 
 .hero-container {
-    margin-top: 130px;
-    text-align: center;
+  margin-top: 130px;
+  text-align: center;
 
-    @include laptop {
-        margin-top: 100px;
-    }
+  @include laptop {
+    margin-top: 100px;
+  }
 }
 
 .hero-title {
-    font-size: 49px;
-    color: b.$black;
-    font-family: a.$raleway;
+  font-size: 49px;
+  color: b.$black;
+  font-family: a.$raleway;
 
-    @include laptop {
-        font-size: 35px;
-    }
+  @include laptop {
+    font-size: 35px;
+  }
 }
 
 .hero-text {
-    margin-top: 20px;
-    font-size: 16px;
-    color: b.$black;
-    margin-bottom: 38px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: b.$black;
+  margin-bottom: 38px;
 
-    @include laptop {
-        text-align: center;
-    }
+  @include laptop {
+    text-align: center;
+  }
 }
 
 .hero-button {
-    font-weight: bold;
-    background-color: b.$primary;
-    margin-top: 38px;
+  font-weight: bold;
+  background-color: b.$primary;
+  margin-top: 38px;
 
-    @include laptop {
-        text-align: center;
-        margin: 0 15px;
-        display: inline-block;
-    }
+  @include laptop {
+    text-align: center;
+    margin: 0 15px;
+    display: inline-block;
+  }
 
-    @include smartphone {
-        margin: 0 15px 74px;
-        padding: 24px 0;
-        display: block;
-    }
+  @include smartphone {
+    margin: 0 15px 74px;
+    padding: 24px 0;
+    display: block;
+  }
 }
 
-
 .hero-image {
-    width: 100%;
+  width: 100%;
 
-    @include tablet {
-        width: 200%;
-        transform: translateX(-24%);
-    }
+  @include tablet {
+    width: 200%;
+    transform: translateX(-24%);
+  }
 }

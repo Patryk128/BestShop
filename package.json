@@ -6,8 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "postinstall": "if [ \"$(uname -s)\" == \"Linux\" ]; then npm uninstall lightningcss-win32-x64-msvc; fi"
+    "build": "parcel build"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.11.0",
@@ -114,8 +113,5 @@
     "utility-types": "^3.11.0",
     "weak-lru-cache": "^1.2.2",
     "yallist": "^4.0.0"
-  },
-  "optionalDependencies": {
-    "lightningcss-win32-x64-msvc": "^1.23.0"
   }
 }

@@ -1316,7 +1316,6 @@ body {
 
   body.show-menu .burger-blur:before {
     content: "";
-    -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
     z-index: 3;
     width: 100%;
@@ -1509,5 +1508,4 @@ body {
 .hidden {
   display: none;
 }
-
 /*# sourceMappingURL=index.574c7455.css.map */
