@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "install": "npm install --legacy-peer-deps"
+    "install": "npm install --legacy-peer-deps",
+    "preinstall": "npx npm@8 install --legacy-peer-deps || exit 0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.11.0",

@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "NPM_FLAGS": "--legacy-peer-deps"
+    },
+    "engines": {
+      "node": "^20.15.0",
+      "npm": "^10.7.0"
+    }
+  }
+}
