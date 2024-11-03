@@ -23,7 +23,7 @@ const products = $('.list__item[data-id="products"]');
 const orders = $('.list__item[data-id="orders"]');
 const accounting = $('[data-id="accounting"]');
 const terminal = $('[data-id="terminal"]');
-const package = $('[data-id="package"]');
+const packageName = $('[data-id="package"]');
 
 const totalPriceEl = $(".total__price");
 
@@ -45,7 +45,7 @@ function handleDropdown(event) {
     selectedPackage = selectedElement.getAttribute("data-value");
     packageSelect.innerText = selectedElement.innerText;
     const packagePrice = +selectedElement.getAttribute("data-price");
-    package.setAttribute("data-price", packagePrice);
+    packageName.setAttribute("data-price", packagePrice);
     selectDropdown.classList.remove("open");
     updatePrice();
   }
@@ -74,10 +74,12 @@ function updatePrice() {
   orders.querySelector(".item__price").innerText = `$${ordersCost}`;
   totalPrice += ordersCost;
 
-  const packageSinglePrice = +package.getAttribute("data-price");
+  const packageSinglePrice = +packageName.getAttribute("data-price");
 
-  package.querySelector(".item__calc").innerText = packageSelect.innerText;
-  package.querySelector(".item__price").innerText = `$${packageSinglePrice}`;
+  packageName.querySelector(".item__calc").innerText = packageSelect.innerText;
+  packageName.querySelector(
+    ".item__price"
+  ).innerText = `$${packageSinglePrice}`;
   totalPrice += packageSinglePrice;
 
   let accountingPrice;
